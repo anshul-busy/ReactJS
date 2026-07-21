@@ -1,0 +1,39 @@
+.shell {
+  text-align: center;
+  padding: 32px 20px 16px;
+}
+
+.shell h1 {
+  margin: 0;
+  color: #1f2937;
+  font-size: 2rem;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+
+.tab button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  background: #e5e7eb;
+  color: #374151;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tab button:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.tab button:active {
+  transform: translateY(0);
+}
